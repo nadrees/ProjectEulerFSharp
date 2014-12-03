@@ -6,3 +6,5 @@ open MiscMath
 
 let target = 600851475143L
 let maxFactor = MiscMath.primeFactorize target |> Seq.max
+
+printfn "%A" maxFactor
